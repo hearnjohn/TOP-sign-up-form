@@ -4,14 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Sign-Up Form</title>
   </head>
   <body>
-    <div class="images"></div>
+    <div class="images" background="images/background.jpeg"></div>
     <div class="text">
-      <div class="info"></div>
-      <div class="form"></div>
-      <div class="buttons"></div>
+      <div class="info">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <div class="form">
+        <p>Let's do this!</p>
+        <div class="name">
+          <form action="">
+            <label for="first_name">First Name</label>
+            <input type="text" />
+          </form>
+          <form action="">
+            <label for="last_name">Last Name</label>
+            <input type="text" />
+          </form>
+        </div>
+        <div class="email-number">
+          <form action="">
+            <label for="email">Email</label> <input type="email" />
+          </form>
+          <form action="">
+            <label for="number">Phone Number </label> <input type="tel" />
+          </form>
+        </div>
+        <div class="password">
+          <form action="">
+            <label for="password">Password</label> <input type="password" />
+          </form>
+          <form action="">
+            <label for="confirmation">Confirm Password</label>
+            <input type="password" />
+          </form>
+        </div>
+      </div>
+      <div class="buttons">
+        <button>Create Account</button>
+        <p>Already have an account? <a>Log in</a></p>
+      </div>
     </div>
   </body>
 </html>

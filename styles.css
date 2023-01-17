@@ -1,7 +1,30 @@
 body {
   display: flex;
 }
+
 .images {
   background-image: url(images/background.jpeg);
   display: flex;
+  background-size: contain
+  background-repeat: no-repeat;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form * {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
