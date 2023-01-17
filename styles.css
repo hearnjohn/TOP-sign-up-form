@@ -1,0 +1,7 @@
+body {
+  display: flex;
+}
+.images {
+  background-image: url(images/background.jpeg);
+  display: flex;
+}
